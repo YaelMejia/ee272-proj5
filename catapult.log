@@ -1,0 +1,460 @@
+//  Catapult Ultra Synthesis 10.4b/841621 (Production Release) Thu Oct 24 17:20:07 PDT 2019
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2019, All Rights Reserved.
+//                        UNPUBLISHED, LICENSED SOFTWARE.
+//             CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//                 PROPERTY OF MENTOR GRAPHICS OR ITS LICENSORS
+//  
+//  Running on Linux yaelmeji@iron-11 6.14.0-37-generic x86_64 aol
+//  
+//  Package information: SIFLIBS v23.4_2.0, HLS_PKGS v23.4_2.0, 
+//                       SIF_TOOLKITS v23.4_2.0, SIF_XILINX v23.4_2.0, 
+//                       SIF_ALTERA v23.4_2.0, CCS_LIBS v23.4_2.0, 
+//                       CDS_PPRO v10.3a_3, CDS_DesigChecker v10.4b, 
+//                       CDS_OASYS v19.1_2.4, CDS_PSR v19.1_1.16, 
+//                       DesignPad v2.78_1.0
+//  
+//  Start time Thu Feb 12 20:46:39 2026
+# -------------------------------------------------
+# Logging session transcript to file "/tmp/log1521022c3be15e.0"
+dofile ./scripts/run_rtl_test_no_gui.tcl
+# > project load build
+# Moving session transcript to file "/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/catapult.log"
+# Warning: No Encrypted Liberty technology libraries have been specified (LIB-192)
+# Warning: No Process Technology File (PTF) technology libraries have been specified (LIB-192)
+# Warning: No Synopsys DB technology libraries have been specified (LIB-192)
+# Warning: No Encrypted Liberty technology libraries have been specified (LIB-192)
+# Warning: No Process Technology File (PTF) technology libraries have been specified (LIB-192)
+# Warning: No Synopsys DB technology libraries have been specified (LIB-192)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/ProcessingElementless_IDTYPEcomma_WDTYPEcomma_ODTYPEgreater_.v1/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_16__7b014564fab791d44eee51454967eaae7c53_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_15__94420f3ba719784bd596bb6f5b4a592f79f4_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_14__b3eaf335a4248ebce1aae0fb020a12b37795_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_13__abbc9a80d7293f973a216b1e3f7e9d407536_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_12__485f5e0dbcc03e3ba42180cf7f54fc9272d7_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_11__cdde72e4ef69a1eeb7ee0becd27a560a7078_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_10__da64d9c907530f061bca481b6413340b6e1a_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_9__e2f0a7a9b4702c208efb977f3c96f21c6bb0_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_8__36017b6636dfd2837d0103d16de4eac26952_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_7__1f6e0b32b432c26dc3994a9ca75a370666f4_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_6__a52b90bb340c7f3eee93a89a5fd176406496_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_5__78b6104d7ce260a7b6fda3c68a4fb6316238_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_4__ceaf596ccb560661c38b5902ea16ab375fda_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_3__cc607baf4760b7c4fd4ece269b4a4b8c5d7c_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_2__5570eed8c57ba36ecdcdaa2b0331c1765b1e_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_1__f649c59c9fc38f517616b280c1e747cc544e_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_16__d38d5c3f7f7d770ed3944fd5fef6db0b7c26_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_15__a3693e6df94c682291b73c0533bd535379c8_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_14__6ed558445f9b0ba26813510e683ff2e6776a_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_13__3ab39e6656c571656f9f918808a98c90750c_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_12__41334737f9db89f3401ddbdb180284a372ae_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_11__b143065b8a794d7c3150cb2396006f267050_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_10__2ffa16ce99a732e8d71a5f721f0f2d316df3_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_9__3850d4c5a858cb636c57c5c7832e8f086b8a_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_8__088804bffe2cbc7474b0591ee11c8c42692d_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_7__219aaa96b5533f6efa14178ba0ae3f9266d0_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_6__4caa842e06e3cce2ef6eb0925cfd318a6473_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_5__74b9abe40f59f3bac195e723964a8a776216_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_4__99dd0c69a5e527ded4c3d01075afb99b5fb9_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_3__9ab5ce9495ab244439c9135630c9d9035d5c_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_2__e3a3a79fd6d2b9552fe00c731f1f97345afd_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_1__93d204e0bede44f1c5761a5d5c8023bb542f_0/solIndex.xml' ... (LIB-129)
+# Warning: No Encrypted Liberty technology libraries have been specified (LIB-192)
+# Warning: No Process Technology File (PTF) technology libraries have been specified (LIB-192)
+# Warning: No Synopsys DB technology libraries have been specified (LIB-192)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/InputDoubleBufferless_4096comma_16comma_16greater_.v1/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/WeightDoubleBufferless_8192comma_16comma_16greater_.v1/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_16__7b014564fab791d44eee51454967eaae7c53_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_15__94420f3ba719784bd596bb6f5b4a592f79f4_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_14__b3eaf335a4248ebce1aae0fb020a12b37795_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_13__abbc9a80d7293f973a216b1e3f7e9d407536_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_12__485f5e0dbcc03e3ba42180cf7f54fc9272d7_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_11__cdde72e4ef69a1eeb7ee0becd27a560a7078_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_10__da64d9c907530f061bca481b6413340b6e1a_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_9__e2f0a7a9b4702c208efb977f3c96f21c6bb0_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_8__36017b6636dfd2837d0103d16de4eac26952_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_7__1f6e0b32b432c26dc3994a9ca75a370666f4_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_6__a52b90bb340c7f3eee93a89a5fd176406496_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_5__78b6104d7ce260a7b6fda3c68a4fb6316238_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_4__ceaf596ccb560661c38b5902ea16ab375fda_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_3__cc607baf4760b7c4fd4ece269b4a4b8c5d7c_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_2__5570eed8c57ba36ecdcdaa2b0331c1765b1e_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_ODTYPE_1__f649c59c9fc38f517616b280c1e747cc544e_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_16__d38d5c3f7f7d770ed3944fd5fef6db0b7c26_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_15__a3693e6df94c682291b73c0533bd535379c8_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_14__6ed558445f9b0ba26813510e683ff2e6776a_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_13__3ab39e6656c571656f9f918808a98c90750c_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_12__41334737f9db89f3401ddbdb180284a372ae_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_11__b143065b8a794d7c3150cb2396006f267050_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_10__2ffa16ce99a732e8d71a5f721f0f2d316df3_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_9__3850d4c5a858cb636c57c5c7832e8f086b8a_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_8__088804bffe2cbc7474b0591ee11c8c42692d_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_7__219aaa96b5533f6efa14178ba0ae3f9266d0_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_6__4caa842e06e3cce2ef6eb0925cfd318a6473_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_5__74b9abe40f59f3bac195e723964a8a776216_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_4__99dd0c69a5e527ded4c3d01075afb99b5fb9_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_3__9ab5ce9495ab244439c9135630c9d9035d5c_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_2__e3a3a79fd6d2b9552fe00c731f1f97345afd_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/td_ccore_solutions/Fifo_IDTYPE_1__93d204e0bede44f1c5761a5d5c8023bb542f_0/solIndex.xml' ... (LIB-129)
+# Reading solution library '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/SystolicArrayCoreless_IDTYPEcomma_WDTYPEcomma_ODTYPEcomma_16comma_16greater_.v1/solIndex.xml' ... (LIB-129)
+# > flow run /SCVerify/launch_make ./scverify/Verify_concat_sim_rtl_v_ncsim.mk {} SIMTOOL=ncsim sim
+# Making './scverify/Verify_concat_sim_rtl_v_ncsim.mk SIMTOOL=ncsim sim'
+# Make utility invoked from '/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/Conv.v1'
+#     /cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/bin/make -f ./scverify/Verify_concat_sim_rtl_v_ncsim.mk SIMTOOL=ncsim build < "/dev/null" (BASIC-15)
+# make[1]: Entering directory `/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/Conv.v1'
+# ============================================
+# Creating simulation directory 'scverify/concat_sim_rtl_v_ncsim'
+# mkdir -p scverify/concat_sim_rtl_v_ncsim
+# echo "include /cad/cadence/INCISIVE15.20.022/tools/inca/files/cds.lib" >scverify/concat_sim_rtl_v_ncsim/cds.lib
+# echo "define work worklib" >scverify/concat_sim_rtl_v_ncsim/hdl.var
+# mkdir -p scverify/concat_sim_rtl_v_ncsim/work
+# echo "define work ./work" >>scverify/concat_sim_rtl_v_ncsim/cds.lib
+# ============================================
+# Compiling Verilog file: concat_sim_rtl.v
+# ncvlog -work work -cdslib scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar scverify/concat_sim_rtl_v_ncsim/hdl.var -linedebug    concat_sim_rtl.v
+# ncvlog(64): 15.20-s022: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+# module unreg_hier (
+#                 |
+# ncvlog: *W,RECOMP (concat_sim_rtl.v,75389|16): recompiling design unit work.unreg_hier.
+# 	First compiled from line 71155 of concat_sim_rtl.v.
+# ============================================
+# Compiling C++ file: ../../src/Conv.cpp
+# ncsc  -COMPILER /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -cdslib scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar scverify/concat_sim_rtl_v_ncsim/hdl.var  -CFLAGS " -fPIC -o scverify/concat_sim_rtl_v_ncsim/Conv.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DCCS_DESIG
+# N_FUNC_Conv_run -DCCS_DESIGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION " ../../src/Conv.cpp
+# ncsc(64): 15.20-s022: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+# ncsc: /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -fPIC -o scverify/concat_sim_rtl_v_ncsim/Conv.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DCCS_DESIGN_FUNC_Conv_run -DCCS_DES
+# IGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION  -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/tlm2 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/cci -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -c -Wall  ../../src/Conv.cpp
+# ../../src/InputDoubleBuffer.h:44:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:39:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:98:25: warning: label 'FY' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:90:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:99:29: warning: label 'FX' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:100:33: warning: label 'OY0' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:102:37: warning: label 'OX0' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:96:17: warning: label 'OC1' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:97:21: warning: label 'IC1' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:38:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:35:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:88:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:84:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ncsc: Running scFrontEnd on ../../src/Conv.cpp using library WORK...
+# ============================================
+# Compiling C++ file: ../../src/ConvTb.cpp
+# ncsc  -COMPILER /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -cdslib scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar scverify/concat_sim_rtl_v_ncsim/hdl.var  -CFLAGS " -fPIC -o scverify/concat_sim_rtl_v_ncsim/ConvTb.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DCCS_DES
+# IGN_FUNC_Conv_run -DCCS_DESIGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION " ../../src/ConvTb.cpp
+# ncsc(64): 15.20-s022: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+# ncsc: /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -fPIC -o scverify/concat_sim_rtl_v_ncsim/ConvTb.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DCCS_DESIGN_FUNC_Conv_run -DCCS_D
+# ESIGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION  -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/tlm2 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/cci -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -c -Wall  ../../src/ConvTb.cpp
+# ../../src/ConvTb.cpp:142:264: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ac_int<48, true>::rt<32, true>::plus {aka ac_int<49, true>}' [-Wformat=]
+# ../../src/ConvTb.cpp:142:264: warning: format '%d' expects argument of type 'int', but argument 3 has type 'ac_int<48, true>::rt<32, true>::plus {aka ac_int<49, true>}' [-Wformat=]
+# ../../src/ConvTb.cpp:149:203: warning: format '%d' expects argument of type 'int', but argument 2 has type 'ac_int<48, true>::rt<32, true>::plus {aka ac_int<49, true>}' [-Wformat=]
+# ../../src/ConvTb.cpp:149:203: warning: format '%d' expects argument of type 'int', but argument 3 has type 'ac_int<48, true>::rt<32, true>::plus {aka ac_int<49, true>}' [-Wformat=]
+# ../../src/InputDoubleBuffer.h:44:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:39:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:100:33: warning: label 'OY0' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:102:37: warning: label 'OX0' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:96:17: warning: label 'OC1' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:97:21: warning: label 'IC1' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:98:25: warning: label 'FY' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:90:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ../../src/InputDoubleBuffer.h:99:29: warning: label 'FX' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:35:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:38:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:88:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ../../src/WeightDoubleBuffer.h:84:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ncsc: Running scFrontEnd on ../../src/ConvTb.cpp using library WORK...
+# ../../src/conv_gold_tiled.cpp:50:21: warning: label 'IC0' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:28:3: warning: label 'OY' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:29:5: warning: label 'OX' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:30:7: warning: label 'OC' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:36:3: warning: label 'OY1' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:37:5: warning: label 'OX1' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:38:7: warning: label 'OC1' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:39:9: warning: label 'IC1' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:40:11: warning: label 'FY' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:41:13: warning: label 'FX' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:42:15: warning: label 'OY0' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:43:17: warning: label 'OX0' defined but not used [-Wunused-label]
+# ../../src/conv_gold_tiled.cpp:44:19: warning: label 'OC0' defined but not used [-Wunused-label]
+# ../../src/conv_gold.cpp:19:9: warning: label 'IC' defined but not used [-Wunused-label]
+# ../../src/conv_gold.cpp:20:11: warning: label 'FX' defined but not used [-Wunused-label]
+# ../../src/conv_gold.cpp:21:13: warning: label 'FY' defined but not used [-Wunused-label]
+# ../../src/conv_gold.cpp:15:3: warning: label 'OY' defined but not used [-Wunused-label]
+# ../../src/conv_gold.cpp:16:5: warning: label 'OX' defined but not used [-Wunused-label]
+# ../../src/conv_gold.cpp:17:7: warning: label 'OC' defined but not used [-Wunused-label]
+# ============================================
+# Compiling C++ file: scverify/mc_testbench.cpp
+# ncsc  -COMPILER /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -cdslib scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar scverify/concat_sim_rtl_v_ncsim/hdl.var  -CFLAGS " -fPIC -o scverify/concat_sim_rtl_v_ncsim/mc_testbench.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DC
+# CS_DESIGN_FUNC_Conv_run -DCCS_DESIGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION " scverify/mc_testbench.cpp
+# ncsc(64): 15.20-s022: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+# ncsc: /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -fPIC -o scverify/concat_sim_rtl_v_ncsim/mc_testbench.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DCCS_DESIGN_FUNC_Conv_run -
+# DCCS_DESIGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION  -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/tlm2 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/cci -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -c -Wall  scverify/mc_testbench.cpp
+# ./../../src/InputDoubleBuffer.h:39:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:44:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:102:37: warning: label 'OX0' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:96:17: warning: label 'OC1' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:97:21: warning: label 'IC1' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:98:25: warning: label 'FY' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:90:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:99:29: warning: label 'FX' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:100:33: warning: label 'OY0' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:38:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:35:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:88:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:84:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ncsc: Running scFrontEnd on scverify/mc_testbench.cpp using library WORK...
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1013: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_CTYPE(float)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1014: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_CTYPE(double)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1015: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(bool)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1016: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(char)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1017: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(signed char)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1018: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned char)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1019: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(short)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1020: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned short)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1021: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(int)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1022: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned int)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1023: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(long)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1024: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned long)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1025: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(Slong)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1026: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(Ulong)
+#       ^
+# 
+# ============================================
+# Compiling C++ file: scverify/scverify_top.cpp
+# ncsc  -COMPILER /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -cdslib scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar scverify/concat_sim_rtl_v_ncsim/hdl.var  -CFLAGS " -fPIC -o scverify/concat_sim_rtl_v_ncsim/scverify_top.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DC
+# CS_DESIGN_FUNC_Conv_run -DCCS_DESIGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION " scverify/scverify_top.cpp
+# ncsc(64): 15.20-s022: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+# ncsc: /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -fPIC -o scverify/concat_sim_rtl_v_ncsim/scverify_top.cpp.cxxts.o -I./scverify -I. -I../.. -I../../src -I./scverify -I. -I../.. -I../../src -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/src -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/siflibs -I/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/hls_pkgs/mgc_comps_src -DNCSC -c -x c++ -Wall -Wno-unknown-pragmas -Wno-deprecated -DCCS_SCVERIFY_USE_CCS_BLOCK -DCCS_DUT_RTL -DCCS_DUT_VERILOG -DCCS_SCVERIFY -DSC_INCLUDE_DYNAMIC_PROCESSES -DSC_USE_STD_STRING -DTOP_HDL_ENTITY=Conv -DCCS_DESIGN_FUNC_Conv_run -
+# DCCS_DESIGN_TOP_Conv -DCCS_MISMATCHED_OUTPUTS_ONLY  -DDEADLOCK_DETECTION  -DNCSC -DCADENCE  -DLNX86 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include_pch/64bit  -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/tlm2 -I/cad/cadence/INCISIVE15.20.022/tools/systemc/include/cci -I/cad/cadence/INCISIVE15.20.022/tools/tbsc/include -I/cad/cadence/INCISIVE15.20.022/tools/vic/include -c -Wall  scverify/scverify_top.cpp
+# ./../../src/InputDoubleBuffer.h:44:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:39:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:97:21: warning: label 'IC1' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:98:25: warning: label 'FY' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:90:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:99:29: warning: label 'FX' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:100:33: warning: label 'OY0' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:102:37: warning: label 'OX0' defined but not used [-Wunused-label]
+# ./../../src/InputDoubleBuffer.h:96:17: warning: label 'OC1' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:38:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:35:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:88:17: warning: label 'TILE' defined but not used [-Wunused-label]
+# ./../../src/WeightDoubleBuffer.h:84:13: warning: label 'TILES' defined but not used [-Wunused-label]
+# ncsc: Running scFrontEnd on scverify/scverify_top.cpp using library WORK...
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1013: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_CTYPE(float)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1014: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_CTYPE(double)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1015: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(bool)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1016: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(char)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1017: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(signed char)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1018: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned char)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1019: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(short)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1020: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned short)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1021: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(int)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1022: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned int)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1023: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(long)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1024: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(unsigned long)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1025: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(Slong)
+#       ^
+# 
+# "/cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/shared/include/ac_float.h", line 1026: error: 
+#           too many arguments in function call
+#       FL_OPS_WITH_INT_CTYPE(Ulong)
+#       ^
+# 
+# ============================================
+# Linking executable
+# /cad/cadence/INCISIVE15.20.022/tools/cdsgcc/gcc/install/bin/g++ scverify/concat_sim_rtl_v_ncsim/Conv.cpp.cxxts.o scverify/concat_sim_rtl_v_ncsim/ConvTb.cpp.cxxts.o scverify/concat_sim_rtl_v_ncsim/mc_testbench.cpp.cxxts.o scverify/concat_sim_rtl_v_ncsim/scverify_top.cpp.cxxts.o -Wl,-G  -shared   -L/cad/cadence/INCISIVE15.20.022/tools/lib/64bit -L/cad/cadence/INCISIVE15.20.022/tools/tbsc/lib/64bit -L/cad/cadence/INCISIVE15.20.022/tools/tbsc/lib/64bit/gnu -ltbsc -lscv -L/cad/cadence/INCISIVE15.20.022/tools/systemc/lib/64bit/gnu -lsystemc_sh -lncscCoSim_sh -lncscCoroutines_sh   -o scverify/concat_sim_rtl_v_ncsim/libscverify_top.so
+# ============================================
+# Elaborating design
+# cd ../..; ncelab +tb_rc_dir+./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim +tb_run_dir+. +tb_trans_record -access +R  -log ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/ncelab.log  -work work  -cdslib ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/hdl.var -loadsc ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/libscverify_top.so  scverify_top
+# ncelab(64): 15.20-s022: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+# 
+# Info: CCS_CLK_CTOR: Clock 'clk' - Using default clock period '5 ns'
+# ============================================
+# Creating NCSim TCL file 'scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl' from 'scverify/ccs_wave_signals.dat'
+# /cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/bin/tclsh8.5 /cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/pkgs/sif/userware/En_na/flows/app_ncsim.flo create_ncsim_wave ./build/Conv.v1/scverify/ccs_wave_signals.dat scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl ./build/Conv.v1/.dut_inst_info.tcl  0
+# app_ncsim.flo - Executing command 'create_ncsim_wave ./build/Conv.v1/scverify/ccs_wave_signals.dat scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl ./build/Conv.v1/.dut_inst_info.tcl 0'...
+# Wrote NCSim waveform creation script to 'scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl'
+# make[1]: Leaving directory `/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/Conv.v1'
+#     /cad/mentor/2019.11/Catapult_Synthesis_10.4b-841621/Mgc_home/bin/make -f ./scverify/Verify_concat_sim_rtl_v_ncsim.mk SIMTOOL=ncsim sim (BASIC-14)
+# make[1]: Entering directory `/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/Conv.v1'
+# ============================================
+# Simulating design entity: scverify_top
+# cd ../..; ncsim   -log ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/sim.log  +tb_rc_dir+./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim +tb_run_dir+. +tb_trans_record -input ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/scverify_ncsim_gui.tcl  -cdslib ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/cds.lib -hdlvar ./build/Conv.v1/scverify/concat_sim_rtl_v_ncsim/hdl.var scverify_top
+# ncsim(64): 15.20-s022: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+# 
+# The SystemC(r) Code included in this Product is Copyright  1996 - 2016 by all Contributors.  All rights reserved.
+# 
+# The SystemC Code included in this Product has been modified by Cadence Design Systems, Inc. and CoWare, Inc. All such modifications are Copyright (c) 2004-2016 Cadence Design Systems, Inc. and Copyright (c) 2004 CoWare, Inc.  All Rights Reserved.
+# 
+# SystemC(r) is a registered trademark of Accellera Systems Initiative, Inc. in the United States and other countries and is used with permission.
+# 
+# 
+# Info: CCS_CLK_CTOR: Clock 'clk' - Using default clock period '5 ns'
+# Disabling STALL_FLAG toggling
+# ncsim> # Source static function file
+# ncsim> global env
+# ncsim> # Source the common TCL file (that also reads the wave database file)
+# ncsim> source $env(MGC_HOME)/pkgs/sif/userware/En_na/flows/ncsim_funcs.tcl
+# ncsim> read_ccs_wave ./build/Conv.v1/scverify/ccs_wave_signals.dat
+# Reading SCVerify waveform database './build/Conv.v1/scverify/ccs_wave_signals.dat'
+# ncsim> setup_vcd_file ./build/Conv.v1/.dut_inst_info.tcl
+# ncsim> 
+# ncsim> populate_wave_window
+# ncsim> 
+# ncsim> if { ("0" != {}) && [file exists "0"] } {
+# >    source "0"
+# > }
+# ncsim> # If not running in GUI mode, run the entire simulation
+# ncsim> if { ![gui_is_active] } {
+# >    do_simulation_run
+# > }
+# run
+# Generating Input
+# Generating Weight
+# Streaming Weight
+# Running HLS C design
+# SCVerify intercepting C++ function 'Conv::run' for RTL block 'Conv'
+# 
+# Info: HW reset: TLS_arst_n active @ 0 s
+# Running reference C models
+# 
+# Checking Output
+# 
+# 
+# There were 0 errors
+# Info: Execution of user-supplied C++ testbench 'main()' has completed with exit code = 0
+# 
+# Info: Collecting data completed
+#    captured 57600 values of input_serial_value
+#    captured 294912 values of weight_serial_value
+#    captured 100352 values of output_serial
+#    captured 9 values of paramsIn
+# 
+# Info: scverify_top.user_tb: Simulation completed
+# 
+# Checking results
+# 'output_serial'
+#    capture count        = 100352
+#    comparison count     = 100352
+#    ignore count         = 0
+#    error count          = 0
+#    stuck in dut fifo    = 0
+#    stuck in golden fifo = 0
+# 
+# 
+# Info: scverify_top.user_tb: Simulation PASSED @ 5928373 ns
+# 
+# 
+# SC simulation stopped by user.
+# 
+# SystemC : SystemC stopped at time 5928373
+# 
+# Info: scverify_top.Monitor: runs with constant clock period 5 ns
+# ncsim> exit
+# make[1]: Leaving directory `/home/users/yaelmeji/Desktop/ee272/ee272-part5/dnn-accelerator-hls-unoptimized-solution-master/build/Conv.v1'
+# > end dofile ./scripts/run_rtl_test_no_gui.tcl
+// Finish time Thu Feb 12 20:50:36 2026, time elapsed 3:57, peak memory 1.09GB, exit status 0

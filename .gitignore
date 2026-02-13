@@ -1,0 +1,6 @@
+# ---- EE272 / HLS generated outputs ----
+build/
+compare/*_gold
+compare/*gold*
+*.nlv
+
