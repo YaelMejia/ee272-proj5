@@ -313,7 +313,7 @@ public:
                 // -------------------------------
                 #pragma hls_unroll yes
                 for(int j = 0; j < OC0; j++){
-                    #pragma hls_unroll yes
+                    #
                     for(int i = 0; i < IC0; i++){
                         input_reg[i][j+1] = input_reg2[i][j];
                         psum_reg[i+1][j] = psum_reg2[i][j];
